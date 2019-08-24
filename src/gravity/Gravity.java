@@ -11,6 +11,7 @@ public class Gravity {
         double distance = 0.0;
         speed = grav * 9.8;
         distance = 0.5 * grav * time * time;
+        System.out.println("the speed of an object at" + time + "seconds after its release is" + speed + "and its distance the object travelled is" + distance);
 
     }
 }
